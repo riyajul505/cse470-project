@@ -1,6 +1,6 @@
 const withMT = require("@material-tailwind/react/utils/withMT");
 const colors = require('tailwindcss/colors');
-
+// this is riyajul commit message
 
 /** @type {import('tailwindcss').Config} */
 export default withMT({
