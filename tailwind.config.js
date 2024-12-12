@@ -1,9 +1,11 @@
-import withMT from "@material-tailwind/react/utils/withMT";
-import colors from "tailwindcss/colors";
-
+const withMT = require("@material-tailwind/react/utils/withMT");
+const colors = require('tailwindcss/colors');
+// this is riyajul commit message
+// this is trisha
 /** @type {import('tailwindcss').Config} */
 export default withMT({
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"
+  ],
   theme: {
     extend: {},
     colors: {
